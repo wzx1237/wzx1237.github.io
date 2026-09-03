@@ -129,3 +129,29 @@ section + section {
   text-align: center;
   font-size: 0.95rem;
 }
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.exp-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.exp-school {
+    text-align: left;
+    font-weight: 500;
+    flex: 1;
+}
+.exp-date {
+    text-align: right;
+    color: #666;
+    white-space: nowrap;
+    margin-left: 30px; 
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zhixin | Personal Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Hi, I'm Zhixin</h1>
+      <p>I build things and keep learning.</p>
+      <a class="button" href="https://github.com/wzx1237">View GitHub</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>About</h2>
+      <p>Welcome to my personal page. This site shares who I am, what I do, and what I'm working on.</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul class="cards">
+        <li class="card">
+          <h3>Project One</h3>
+          <p>A short description of a project you are proud of.</p>
+        </li>
+        <li class="card">
+          <h3>Project Two</h3>
+          <p>A short description of another project or learning milestone.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Zhixin</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
